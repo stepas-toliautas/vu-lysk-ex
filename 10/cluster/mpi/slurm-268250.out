@@ -1,0 +1,16 @@
+Running MPI 3.1
+Hello from process 0 (of 8) on "fizika282"!
+MPI processes (8): calculating...
+Found  5761455 primes in [1:1e+08] (in 24.074 s)
+Running MPI 3.1
+Hello from process 0 (of 16) on "fizika282"!
+MPI processes (16): calculating...
+Found  5761455 primes in [1:1e+08] (in 12.189 s)
+Running MPI 3.1
+Hello from process 0 (of 32) on "fizika282"!
+MPI processes (32): calculating...
+Found  5761455 primes in [1:1e+08] (in 7.361 s)
+Running MPI 3.1
+Hello from process 0 (of 64) on "fizika282"!
+MPI processes (64): calculating...
+Found  5761455 primes in [1:1e+08] (in 3.694 s)

@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --nodes=2
+#SBATCH --ntasks-per-node=32
+#SBATCH --exclusive
+#SBATCH -p comp_32_370
+#SBATCH -J mpi_test
+#SBATCH -t 01:00:00
+
+mpiexec -n  8 ./primpi.icc
+mpiexec -n 16 ./primpi.icc
+mpiexec -n 32 ./primpi.icc
+mpiexec -n 64 ./primpi.icc
+
